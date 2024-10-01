@@ -24,13 +24,12 @@ To run this project, you'll need the following:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo/employee-management-system.git
-    cd employee-management-system
+    git clone https://github.com/camerongardner/Employee-Manager
     ```
 
 2. **Compile the program**:
     ```bash
-    g++ -o employee_management_system main.cpp
+    g++ -o employee_management_system Employee.cpp
     ```
 
 3. **Run the executable**:
@@ -42,7 +41,7 @@ To run this project, you'll need the following:
 
 ## File Structure
 
-- `main.cpp`: The main C++ file containing the entire codebase for the Employee Management System.
+- `Employee.cpp`: The main C++ file containing the entire codebase for the Employee Management System.
 - `employees.txt`: A text file where employee data is stored. This file will be created automatically if it does not exist when the program is run.
 
 ## Code Breakdown
@@ -74,8 +73,8 @@ To run this project, you'll need the following:
 
 ## Known Issues
 
-- The program does not currently handle cases where multiple employees share the same name or position.
 - Employee IDs must be entered correctly when deleting an employee, with no validation for incorrect IDs.
+- Employee IDs for deleted employees do not get reused. 
 
 ## Video Demonstration
 
@@ -85,9 +84,9 @@ As part of the course requirement, a short video demonstration of the Employee M
 3. Deleting an employee.
 4. Explanation of how the system works and the code structure.
 
-The video has been uploaded to YouTube [here](your-video-link).
+The video has been uploaded to YouTube https://www.youtube.com/watch?v=f42k-hD6x9M.
 
-Please note that the project is also available on GitHub [here](your-repo-link).
+Please note that the project is also available on GitHub https://github.com/camerongardner/Employee-Manager.
 
 ## Contributing
 
